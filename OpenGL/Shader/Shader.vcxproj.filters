@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Objects">
+      <UniqueIdentifier>{1a6bf8ee-24fb-4c24-b734-5aabd24032ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects">
+      <UniqueIdentifier>{a372ecbb-a6e9-42f6-b109-243e7a65d697}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Objects\Assimp">
+      <UniqueIdentifier>{c65886a8-7688-4dfa-91ee-2beaafdda012}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{f1328078-b031-4c65-aa24-2287d9a08c4b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\TES_fragment_shader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\TES_geometry_shader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\TES_tessellation_Control_shader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\TES_tessellation_evaluation_shader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\TES_vertex_shader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\copy_fragment_shader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\cube_fragment_shader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\cube_vertex_shader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\fragment_shader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\GO_fragment_shader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\GO_geometry_shader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\GO_vertex_shader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\model_fragment_shader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\model_vertex_shader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\ortho_fragment_shader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\ortho_vertex_shader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\perlin_fragment_shader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\perlin_vertex_shader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\vertex_shader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\PP_fragment_shader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\PP_vertex_shader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\PAR_compute_shader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\PAR_vertex_shader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\PAR_fragment_shader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\ANI_fragment_shader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\ANI_vertex_shader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\SH_terrain_fragment_shader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\SH_fragment_shader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\SH_ANI_vertex_shader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\SH_SPH_vertex_shader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\SPH_fragment_shader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\SPH_vertex_shader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ShaderHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Square.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Cuboid.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Skybox.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files\Objects\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files\Objects\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Floor.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Perlin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PostProcess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Star.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimatedModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ShaderHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Square.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Cuboid.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Skybox.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Floor.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Sphere.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Perlin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PostProcess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Star.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimatedModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
